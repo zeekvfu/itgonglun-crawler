@@ -1,8 +1,8 @@
 itgonglun-crawler
 =================
 
-download podcast episodes from [itgonglun.com](http://www.itgonglun.com/)
-从「[IT 公论](http://www.itgonglun.com/)」下载 podcast episodes
+download podcast episodes from [itgonglun.com](http://www.itgonglun.com/)  
+从「[IT 公论](http://www.itgonglun.com/)」下载 podcast episodes  
 
 
 运行环境：  
@@ -20,7 +20,7 @@ $ ./crawler.py
 超时重传  
 
 PS.  
-[博客](http://mindcache.info/)介绍：http://mindcache.info/2014/04/03/python-download-itgonglun-podcast.html
+[博客](http://mindcache.info/)介绍：http://mindcache.info/2014/04/03/python-download-itgonglun-podcast.html  
 「[IT 公论](http://www.itgonglun.com/)」 网址：http://www.itgonglun.com/
 
 
