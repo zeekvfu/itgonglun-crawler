@@ -9,7 +9,7 @@ download podcast episodes from [itgonglun.com](http://www.itgonglun.com/)
 Linux, Python 3.x  
 
 使用方法：  
-$ cd itgonglun-crawler
+$ cd itgonglun-crawler  
 $ chmod u+x crawler.py  
 $ ./crawler.py  
 根据提示，输入要下载的 podcast episodes 区间即可。  
