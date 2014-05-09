@@ -15,7 +15,11 @@ from multi_thread_continous_download import multi_thread_continous_download
 
 # 解析 HTML 代码，得到下载链接
 def parse_download_url(index, regex):
-	index_url = "http://www.itgonglun.com/episodes/" + str(index)
+	index_url = ""
+	if (index == 58):
+		index_url = "http://www.itgonglun.com/episodes/59-1"
+	else:
+		index_url = "http://www.itgonglun.com/episodes/" + str(index)
 	try:
 		with urllib.request.urlopen(index_url) as response:
 			# print(response.status, response.reason)
@@ -59,10 +63,18 @@ logging.getLogger().addHandler(stdout_handler)
 
 for index in range(begin, end+1):
 	url = parse_download_url(index, regex)
+	if url is None:
+		continue
 	logging.info(str(index) + '\t' + url)
 	multi_thread_continous_download(url)
 
 logging.shutdown()
+
+
+
+
+# 比较特殊的 URL：
+# 58			http://www.itgonglun.com/episodes/59-1
 
 
 
