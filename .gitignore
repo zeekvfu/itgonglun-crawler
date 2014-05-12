@@ -1,3 +1,11 @@
+update.txt
+url.log
+*.mp3
+*.m4a
+
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
