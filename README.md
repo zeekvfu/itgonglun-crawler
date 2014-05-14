@@ -24,7 +24,8 @@ Linux/Windows + Python 3.x
 * 超时重传  
 
 ###参考链接：  
-[博客](http://mindcache.info/)介绍：http://mindcache.info/2014/04/03/python-download-itgonglun-podcast.html  
-「[IT 公论](http://www.itgonglun.com/)」 网址：http://www.itgonglun.com/
+[博客介绍](http://mindcache.info/2014/04/03/python-download-itgonglun-podcast.html)  
+[HTTP 文件下载的几个特性及实现](http://mindcache.info/2014/02/23/http-file-download-feature-implementation.html)  
+[「IT 公论」网址](http://www.itgonglun.com/)  
 
 
